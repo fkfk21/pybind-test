@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pybind-test"
+version = "0.1.0"
+description = ""
+authors = ["Kenji Fukuda <fk.kenji.21@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pybind11 = "^2.12.0"
+mypy = "^1.10.0"
+numpy = "^1.26.4"
+pybind11-stubgen = "^2.5.1"
+ipython = "^8.25.0"
+cmake-example = {path = "cmake_example"}
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
